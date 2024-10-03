@@ -2,6 +2,10 @@
 
 Welcome to a Hello Vanilla, a starter web app built with vanilla HTML, CSS and Javascript.
 
+## Instructions
+
+Download or clone this repo into your workspace.
+
 - [Challenges](challenges.md)
 
 ## Attributions
