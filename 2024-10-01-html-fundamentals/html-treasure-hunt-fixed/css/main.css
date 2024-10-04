@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 12px;
+  border: solid 2px red;
+  padding: 50px;
+  background-color: bisque;
+}
+
+main {
+  background-color: azure;
+  padding: 50px;
+}
+
+.footer-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-style: italic;
+  background-color: beige;
+}
+
+#footer-heading {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul li.list-item {
+  color: rgb(255, 0, 0)
+}
+
+#main-text {
+  background-color: chartreuse;
+}

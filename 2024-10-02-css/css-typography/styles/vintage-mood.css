@@ -1,0 +1,20 @@
+h1, h2, h3 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8B4513;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px #F4A460;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
+blockquote {
+  font-family: 'Palatino', serif;
+  background-color: #F5F5DC;
+  border-left: 5px solid #8B4513;
+  padding-left: 10px;
+}
