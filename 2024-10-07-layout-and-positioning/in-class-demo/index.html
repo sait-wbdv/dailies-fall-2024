@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS Positioning Example</h1>
+
+    <!-- Static Position (default behavior) -->
+    <section class="static-section">
+        <h2>Static Position (Default)</h2>
+        <div class="static-box">I am static (default).</div>
+    </section>
+
+    <!-- Relative Position -->
+    <section class="relative-section">
+        <h2>Relative Position</h2>
+        <div class="relative-box">I am positioned relative to my normal flow.</div>
+    </section>
+
+    <!-- Absolute Position -->
+    <section class="absolute-section">
+        <h2>Absolute Position</h2>
+        <div class="relative-wrapper">
+            <div class="absolute-box">I am positioned absolutely inside this relative container.</div>
+        </div>
+    </section>
+
+    <!-- Fixed Position -->
+    <section class="fixed-section">
+        <h2>Fixed Position</h2>
+        <div class="fixed-box">I stay in place when you scroll!</div>
+    </section>
+
+    <!-- Sticky Position -->
+    <section class="sticky-section">
+        <h2>Sticky Position</h2>
+        <div class="sticky-box">I become sticky after scrolling!</div>
+    </section>
+
+    <!-- Extra content to demonstrate scrolling -->
+    <div class="extra-content">
+        <p>Scroll down to see how fixed and sticky positioning works.</p>
+        <p>Keep scrolling...</p>
+        <p>...more scrolling...</p>
+        <p>...and more content...</p>
+    </div>
+</body>
+</html>
