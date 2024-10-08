@@ -1,0 +1,148 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+/* Section styling */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Box styling for position examples */
+.static-box, .relative-box, .absolute-box, .fixed-box, .sticky-box {
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Static Position (default, no special styles) */
+.static-box {
+  /* No position needed, static is the default */
+}
+
+/* Relative Position */
+.relative-box {
+  position: relative;
+  top: 20px; /* Moves down from the normal flow by 20px */
+  left: 10px; /* Moves right from the normal flow by 10px */
+  background-color: #1abc9c;
+}
+
+/* Absolute Position */
+.relative-wrapper {
+  position: relative; /* Parent container must be relative to contain the absolute element */
+  height: 150px;
+  background-color: #ecf0f1;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e74c3c;
+}
+
+/* Fixed Position */
+.fixed-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #9b59b6;
+  z-index: 1000; /* Ensures it's on top of other elements */
+}
+
+/* Sticky Position */
+.sticky-section {
+  height: 200px; /* Large enough to simulate scrolling */
+}
+.sticky-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f39c12;
+}
+
+/* Extra content for scrolling demonstration */
+.extra-content {
+  height: 600px; /* Extra height to simulate a long page */
+  padding: 20px;
+}
+
+.profile-card {
+  display: block;
+  width: 300px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-card h3 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.profile-card p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Menu List */
+.nav-menu {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the inline-block elements */
+}
+
+/* Menu Items */
+.nav-menu li {
+  display: inline-block; /* Align items horizontally */
+  margin-right: 20px; /* Add space between menu items */
+}
+
+/* Menu Links */
+.nav-menu a {
+  display: block; /* Make the link itself block-level */
+  padding: 10px 15px; /* Add padding for a larger clickable area */
+  color: white;
+  text-decoration: none;
+  background-color: #333; /* Match background color with navbar */
+}
+
+/* Hover Effect */
+.nav-menu a:hover {
+  background-color: #555;
+}
+

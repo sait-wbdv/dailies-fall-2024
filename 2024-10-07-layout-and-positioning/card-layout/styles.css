@@ -1,0 +1,43 @@
+/* Basic card container styling */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text overlay */
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card-text h3 {
+  margin: 0 0 10px 0;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 14px;
+}

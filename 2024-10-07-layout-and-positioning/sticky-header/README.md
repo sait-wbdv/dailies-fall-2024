@@ -1,0 +1,17 @@
+Explanation:
+Sticky Header:
+
+The position: sticky property on the .sticky-header keeps the header at the top of the viewport when the user scrolls past it. The top: 0 ensures it sticks to the top of the page.
+A box-shadow is added for better visibility when the header becomes sticky.
+Fixed Sidebar:
+
+The .sidebar uses position: fixed to remain fixed on the left side of the viewport as the user scrolls. This keeps the sidebar always visible.
+The height of the sidebar is set to 100% to cover the full height of the page.
+Padding at the top ensures the content within the sidebar isn't hidden behind the header.
+Main Content:
+
+The .content section has a margin-left: 220px to leave space for the fixed sidebar. This prevents the content from being overlapped by the sidebar.
+How It Works:
+Fixed Sidebar: As you scroll the page, the sidebar stays fixed on the left side. This is useful for navigation menus that should always be accessible.
+Sticky Header: The header stays at the top of the page and sticks there after you scroll down past it, ensuring the page's title or navigation remains visible.
+You can add more content to the <main> section to simulate a longer page and fully see the effect of the sticky header and fixed sidebar.
